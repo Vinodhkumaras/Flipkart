@@ -1,0 +1,28 @@
+/* Background */
+body {
+    background-image: url('img/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Card Styling */
+.card {
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+    border-radius: 8px;
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card .btn {
+    margin-right: 10px;
+}
